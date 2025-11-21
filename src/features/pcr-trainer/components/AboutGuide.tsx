@@ -18,8 +18,8 @@ export const AboutGuide: React.FC<AboutGuideProps> = ({ onClose }) => {
         <div className="overflow-y-auto p-8 space-y-12 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
           {/* Hero Section */}
           <div className="text-center space-y-4 mt-8">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-500/10 mb-4 border border-blue-500/20">
-              <span className="text-4xl">🚑</span>
+            <div className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-blue-500/10 mb-4 border border-blue-500/20">
+              <span className="text-2xl font-bold text-blue-400">ProMedixEMS™</span>
             </div>
             <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-400">
               Welcome to PCR Trainer Pro
